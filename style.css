@@ -4,6 +4,11 @@ body {
   background: lightgray;
 }
 
+h1 {
+  text-align: center;
+  color: darkblue;
+}
+
 /* Main Container */
 main {
   width: 100%;
