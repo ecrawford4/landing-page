@@ -1,4 +1,4 @@
-# DIY Landing Page
+# Ethan Crawford Landing Page
 
 > Make your own landing page with your own content, and design.
 
@@ -12,8 +12,8 @@ My DIY Landing Page with these features.
 * Secure, and scalable to many CDNs worldwide via Netlify, Vercel, etc.
 
 ## Sources
-* Cite.
-* Your. 
+[Google Font]()
+[Real Favicon Generator](https://realfavicongenerator.net)
 * Sources.
 
 ## Why Does This Exist? 
