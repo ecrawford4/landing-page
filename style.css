@@ -1,29 +1,109 @@
 /* Have fun. This is your site. */
 
+/* Cyberpunk Neobrutalist Style */
+
 body {
-  background: lightgray;
+  background: #111111;
+  color: #00ff00;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-bottom: 5px solid #ff00ff;
+  color: #ff00ff;
+  margin: 1rem 0;
 }
 
 h1 {
-  text-align: center;
-  color: darkblue;
+  font-size: 3rem;
+  color: #00ffff;
 }
 
-/* Main Container */
 main {
-  width: 100%;
-  /* centers container to page */
+  width: 90%;
   margin-inline: auto;
-  
-  /* adjust to your design */
+  margin-top: 2rem;
   max-width: 40em;
+  padding: 2rem;
+  border: 5px solid #ff00ff;
+  background: linear-gradient(135deg, #111111, #222222);
+  box-shadow: 0 0 15px #00ff00;
+}
 
+p {
+  font-size: 1.25rem;
+  line-height: 1.75;
+  margin-bottom: 1.5rem;
+  background: #222222;
+  padding: 1rem;
+  border-left: 10px solid #ff00ff;
+  color: #f8f8f2;
 }
 
 img {
   display: block;
-  margin-inline: left;
+  margin-inline: auto;
   max-width: 100%;
   height: auto;
-  border-radius: 10px;
+  border: 5px solid #ff00ff;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #00ff00;
+}
+
+a {
+  text-decoration: none;
+  color: #ff00ff;
+  font-weight: bold;
+  border-bottom: 3px solid #00ffff;
+}
+
+a:hover {
+  color: #00ff00;
+  background: #ff00ff;
+  padding: 0.2em;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Button Styles */
+button {
+  background: #ff00ff;
+  color: #111111;
+  border: 5px solid #00ff00;
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #00ffff;
+  color: #111111;
+  border-color: #ff00ff;
+  box-shadow: 0 0 15px #ff00ff;
+}
+
+/* Additional Styling */
+hr {
+  border: none;
+  height: 5px;
+  background: linear-gradient(90deg, #ff00ff, #00ffff);
+  margin: 2rem 0;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #888888;
+  border-top: 5px solid #ff00ff;
+  padding: 1rem;
+  margin-top: 2rem;
 }
